@@ -10,6 +10,8 @@ I am Venezuelan, have one 23 years old son and with him, we are beginning since 
 
 I have always loved to learn and because of that I am prepared myself in several areas like planning, marketing, sales, contracting, leadership and have four university degrees: Civil Engineering, Roads, Structures and International Businesses. Now I am walking a new path through coding which I find challenging, interesting and useful in the new life I am in.
 
+Something fun about me: I always feel happy and energetic to live life in a better way.
+
 ## ***Quick Facts***
 * Creative
 * Passionate
