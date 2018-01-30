@@ -1,4 +1,4 @@
-![Luz Cortes](LC113017.jpg)
+s
 
 # **Welcome to meet Luz Cortes**
 
