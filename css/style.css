@@ -1,0 +1,17 @@
+.container {
+    max-width: 960px;
+    background-color: MediumAquaMarine;
+    margin: 0 auto;
+}
+
+  h1 {
+    color:purple;
+  }
+
+  h2 {
+    color:green;
+  }
+
+    p {
+      color: green;
+    }
