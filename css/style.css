@@ -11,11 +11,15 @@
   position: fixed;
   top: 0;
   left: 0;
-  height: 1.3em;
+  height: auto;
   width: 100vw;
 }
 
+
+
+
 .navigation > ul > li {
+  position: relative;
   display: inline;
   list-style: none;
 }
@@ -23,8 +27,6 @@
 .header {
   margin-top: 1.3em;
 }
-
-
 
 
 
@@ -45,6 +47,61 @@ nav {
     left: 0;
     right: 0;
 }
+
+
+.navigation .dropdown {
+  display: none; // this hides the dropdown menu by default
+  position:absolute;
+  top: 1em;
+  right: 0;
+
+}
+
+.navigation a:hover + .dropdown {
+  display: block; // shows the any dropdown that is a direct sibling of a hovered anchor tag in the navigation bar
+}
+
+
+
+.navigation > ul > li {
+  position: relative; // required for absolute positioning
+  display: inline;
+  list-style: none;
+}
+
+.navigation .dropdown {
+  position: absolute; // tracks nearest relatively-positioned ancestor
+  top: 1em; // positions according to the ancestor
+  right: 0;
+  display: none;
+}
+
+.navigation > ul.container {
+  //these styles will extend the styles already contained in the .container class
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .video {
   max-width: 1920;
   background-color: #99FF99;

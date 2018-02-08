@@ -9,9 +9,9 @@
 <!-- for all other pages -->
 <link type="text/css" rel="stylesheet" href="../css/style.css"/>
 
-<div class="container">
-
 </head>
+
+<div class="container">
 
 <body>
   <!--
@@ -21,32 +21,38 @@
 
 <form action="form-responses/new" method="POST">
 
-  <input type="text" name="firstname" value="First Name" size="100" autofocus>
+  <input type="text" name="firstname" value="First Name" size="60" autofocus>
   <br>
   <br>
   <br>
-  <input type="text" name="lastname" value="Last Name" size="100">
+  <input type="text" name="lastname" value="Last Name" size="60">
   <br>
   <br>
   <br>
-  <input type="email" name="userEmail" placeholder="your.email@example.com">
+  <input type="email" name="userEmail" placeholder="your.email@example.com"
+  size="60">
   <br>
   <br>
   <br>
 
   <label>What's this message about?
     <br>
+    <br>
     <input type="radio" name="subject" value="professional" checked><span>I'd like to hire you!</span>
+    <br>
     <br>
     <input type="radio" name="subject" value="personal" checked><span>Personal message</span>
     <br>
+    <br>
     <input type="radio" name="subject" value="other" checked><span>Don't know/something else</span>
     <br>
+    <br>
   </label>
-
+<br>
   <input type="checkbox" name="optin" value="trusting" checked>Subscribe me to your newsletter!
   <br>
-  <input type="checkbox" name="optout" value="skeptical" disabled>Cheeky checkbox...
+  <br>
+  <input type="checkbox" name="optout" value="skeptical" disabled>Let me know the training schedule!
   <br>
   <br>
   <br>
@@ -54,7 +60,7 @@
   <label for="marketing">How did you hear about me?</label>
   <select name="marketing">
     <optgroup label="Online">
-      <option value="social">Social Media (FB, Twitter, LinkedIn)</option>
+      <option value="social">Social Media (FB, Instagram, Twitter, LinkedIn)</option>
       <option value="github">Online Portfolio (GitHub)</option>
       <option value="search">Search Engine</option>
       <option value="email">Email</option>
@@ -69,7 +75,7 @@
   <br>
   <br>
   <br>
-  <textarea name="user_message" rows="8" cols="40"></textarea>
+  <textarea name="user_message" rows="12" cols="55"></textarea>
   <br>
   <input type="submit">
   <br>
@@ -77,13 +83,15 @@
   <br>
 </form>
 
-
-<footer>
-  <p>Posted by: Luz Cortes</p>
-  <p>Contact information: <a href="mailto:laluzmcortes@gmail.com">
-  laluzmcortes@gmail.com</a>.</p>
-<footer> <medium>© Copyright 2018
-</footer>
-
+</div>
 
 </body>
+
+
+<footer>
+  <p>Luz Cortes-Contact Form</p>
+  <p>Email: <a href="mail to:laluzmcortes@gmail.com">laluzmcortes@gmail.com</a> </p>
+  <p>© Copyright 2018</p>
+</footer>
+
+</html>

@@ -1,4 +1,23 @@
-s
+<li>
+  <a href="/projects">Projects</a>
+  <ul class="dropdown">
+    <li><a href="#">First Project</a></li>
+    <li><a href="#">Second Project</a></li>
+    <li><a href="#">Third Project</a></li>
+  </ul>
+</li>
+
+
+<li>
+  <a href="/projects">Projects</a>
+  <ul class="dropdown">
+    <li><a href="#">First Project</a></li>
+    <li><a href="#">Second Project</a></li>
+    <li><a href="#">Third Project</a></li>
+  </ul>
+</li>
+
+
 
 # **Welcome to meet Luz Cortes**
 
