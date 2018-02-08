@@ -20,8 +20,13 @@ nav {
     text-align: center;
     display: flex;
     justify-content: space-around;
-    margin: 20px;
+    margin: 0px;
     color: #6600CC;
+
+    position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 .video {
   max-width: 1920;
