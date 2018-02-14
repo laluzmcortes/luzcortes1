@@ -5,33 +5,22 @@
     padding-bottom: 20px;
     margin: 0;
 }
-
-
-.navigation {
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: auto;
-  width: 100vw;
-}
-
-
-
-
-.navigation > ul > li {
-  position: relative;
-  display: inline;
-  list-style: none;
+#greeting {
+  background-color: #99FF99;
 }
 
 .header {
   margin-top: 1.3em;
+  height: 20px;
+  /*border: 1px solid red;*/
 }
 
-
-
-nav {
-    max-width: 1920;
+.navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: auto;
+    width: 100%;
     background-color: #99FF99;
     padding-left: 10px;
     padding-right: 10px;
@@ -42,65 +31,29 @@ nav {
     display: flex;
     justify-content: space-around;
     margin: 0;
-    position: fixed;
-    top: 0;
-    left: 0;
     right: 0;
+
+
 }
 
-
 .navigation .dropdown {
-  display: none; // this hides the dropdown menu by default
-  position:absolute;
-  top: 1em;
-  right: 0;
-
+  position: absolute;
+  margin-top: 1em;
+  display: none;
+  background-color: red;
 }
 
 .navigation a:hover + .dropdown {
-  display: block; // shows the any dropdown that is a direct sibling of a hovered anchor tag in the navigation bar
+  display: block;
+  /* shows the any dropdown that is a direct sibling of a hovered anchor tag in the navigation bar*/
 }
 
-
-
 .navigation > ul > li {
-  position: relative; // required for absolute positioning
+  position: relative;
+  /* required for absolute positioning*/
   display: inline;
   list-style: none;
 }
-
-.navigation .dropdown {
-  position: absolute; // tracks nearest relatively-positioned ancestor
-  top: 1em; // positions according to the ancestor
-  right: 0;
-  display: none;
-}
-
-.navigation > ul.container {
-  //these styles will extend the styles already contained in the .container class
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .video {
   max-width: 1920;
