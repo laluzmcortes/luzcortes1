@@ -1,0 +1,35 @@
+function greeter() {
+  return 'Hello'
+}
+
+// saving the return value
+var greeting = greeter();
+
+// using the return value to compose larger expressions
+console.log( greeting + ", nice to meet you." )
+
+// what's the difference here?
+console.log( greeter() + ", nice to meet you." )
+
+function sayingGenerator() {
+  var phrase = "Heeey, " + "it's the " + " Fonz."
+  return phrase
+}
+
+// What about now?
+var brokenSaying = brokenSayingGenerator()
+
+function runStory( branch ){
+    var chapter = story[branch];
+    var choices = chapter.choices;
+    var isValidChoice = false;
+    var choice;
+
+    if( choices ){
+          choice = prompt( chapter.text );
+
+          for( var i = 0; i < choices.length; i++ ){
+                      if( choice === choices[i] ){
+                          isValidChoice = true;
+                      }
+                  }
