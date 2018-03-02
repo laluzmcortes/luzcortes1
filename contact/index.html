@@ -4,9 +4,13 @@
 
 
 <head>
-
+<!--Jquery link-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 <!-- for all other pages -->
+<link type="text/css" rel="stylesheet" href="../css/style.css"/>
+
+<!--Linking index.html page to the js file-->
 <link type="text/css" rel="stylesheet" href="../css/style.css"/>
 
 </head>
@@ -29,7 +33,7 @@
 </nav>
 
 
-<form action="form-responses/new" method="POST">
+<form action="//formspree.io/laluzmcortes@gmail.com" method="POST">
 <br>
 <br>
 
@@ -64,7 +68,7 @@
   <input type="checkbox" name="optin" value="trusting" checked>Subscribe me to your newsletter!
   <br>
   <br>
-  <input type="checkbox" name="optout" value="skeptical" disabled>Let me know the training schedule!
+  <input type="checkbox" name="optin" value="trusting" checked>Let me know the training schedule!
   <br>
   <br>
   <br>
@@ -97,13 +101,31 @@
 
 </div>
 
-</body>
 
 
 <footer>
-  <p>Luz Cortes-Contact Form</p>
+<!--  <p>Luz Cortes-Contact Form</p>
   <p>Email: <a href="mail to:laluzmcortes@gmail.com">laluzmcortes@gmail.com</a> </p>
-  <p>&copy; Copyright 2018</p>
+  <p>&copy; Copyright 2018</p>-->
+
+  <ul id="contact-list">
+      <li>contactArray[0]</li>
+      <li>contactArray[1]</li>
+      <li>contactArray[2]</li>
+      <li>contactArray[3]</li>
+  </ul>
+
+
 </footer>
+
+
+
+<!--link to the main js file-->
+<script type="text/javascript" src="../js/js.js">
+
+</script>
+
+</body>
+
 
 </html>
