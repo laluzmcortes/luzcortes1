@@ -1,3 +1,7 @@
+.highlighted {
+    background-color: orange;
+    color: white;
+}
 
 
 .container {
@@ -93,4 +97,8 @@ footer {
   left: 0;
   right: 0;
 
+}
+/* command to make white in the orange highlight the letters of the links at the projects page Wk3Mod3 */
+li a:hover {
+  color: white;
 }
